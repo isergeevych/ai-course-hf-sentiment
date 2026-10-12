@@ -1,0 +1,64 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+=== seara/rubert-base-cased-russian-sentiment ===
+  [OK ] 'Это лучшее приложение для учёта финансов, кот...' -> positive (ожидали positive, conf=0.911, 0.0137s)
+  [OK ] 'Отличная функция прогноза, реально помогает п...' -> positive (ожидали positive, conf=0.985, 0.0119s)
+  [ERR] 'Спасибо, теперь я наконец понимаю, куда уходя...' -> negative (ожидали positive, conf=0.455, 0.012s)
+  [OK ] 'Наконец-то накопил на отпуск благодаря совета...' -> positive (ожидали positive, conf=0.996, 0.0128s)
+  [ERR] 'Приложение постоянно вылетает, когда я пытаюс...' -> neutral (ожидали negative, conf=0.716, 0.0133s)
+  [OK ] 'Ужасно неудобный интерфейс, ничего не могу на...' -> negative (ожидали negative, conf=0.828, 0.0135s)
+  [ERR] 'Мои расходы выросли в два раза, и я не понима...' -> neutral (ожидали negative, conf=0.545, 0.0142s)
+  [ERR] 'Слишком много уведомлений, задолбали каждый д...' -> neutral (ожидали negative, conf=0.611, 0.0133s)
+  [OK ] 'Функция категорий работает, но не всегда точн...' -> neutral (ожидали neutral, conf=0.938, 0.0134s)
+  [OK ] 'Добавил новый источник дохода в настройках....' -> neutral (ожидали neutral, conf=0.822, 0.0127s)
+  [OK ] 'Не пользовался приложением неделю, хочу посмо...' -> neutral (ожидали neutral, conf=0.833, 0.0123s)
+  [OK ] 'Обновил данные о зарплате в профиле....' -> neutral (ожидали neutral, conf=0.97, 0.0103s)
+  Accuracy: 66.7%, среднее время: 0.0128с
+    ожидали / предсказали     positive  negative   neutral
+    positive                         3         1         0
+    negative                         0         1         3
+    neutral                          0         0         4
+
+=== cointegrated/rubert-tiny-sentiment-balanced ===
+  [ERR] 'Это лучшее приложение для учёта финансов, кот...' -> neutral (ожидали positive, conf=0.837, 0.002s)
+  [OK ] 'Отличная функция прогноза, реально помогает п...' -> positive (ожидали positive, conf=0.997, 0.0024s)
+  [OK ] 'Спасибо, теперь я наконец понимаю, куда уходя...' -> positive (ожидали positive, conf=0.543, 0.0015s)
+  [OK ] 'Наконец-то накопил на отпуск благодаря совета...' -> positive (ожидали positive, conf=0.999, 0.0015s)
+  [OK ] 'Приложение постоянно вылетает, когда я пытаюс...' -> negative (ожидали negative, conf=0.661, 0.0016s)
+  [OK ] 'Ужасно неудобный интерфейс, ничего не могу на...' -> negative (ожидали negative, conf=0.976, 0.0015s)
+  [OK ] 'Мои расходы выросли в два раза, и я не понима...' -> negative (ожидали negative, conf=0.812, 0.0019s)
+  [OK ] 'Слишком много уведомлений, задолбали каждый д...' -> negative (ожидали negative, conf=0.92, 0.0015s)
+  [OK ] 'Функция категорий работает, но не всегда точн...' -> neutral (ожидали neutral, conf=0.69, 0.0014s)
+  [ERR] 'Добавил новый источник дохода в настройках....' -> positive (ожидали neutral, conf=0.96, 0.0016s)
+  [ERR] 'Не пользовался приложением неделю, хочу посмо...' -> negative (ожидали neutral, conf=0.531, 0.0016s)
+  [OK ] 'Обновил данные о зарплате в профиле....' -> neutral (ожидали neutral, conf=0.828, 0.0013s)
+  Accuracy: 75.0%, среднее время: 0.0017с
+    ожидали / предсказали     positive  negative   neutral
+    positive                         3         0         1
+    negative                         0         4         0
+    neutral                          1         1         2
+
+=== mxlcw/rubert-tiny2-russian-financial-sentiment ===
+  [OK ] 'Это лучшее приложение для учёта финансов, кот...' -> positive (ожидали positive, conf=0.509, 0.0021s)
+  [OK ] 'Отличная функция прогноза, реально помогает п...' -> positive (ожидали positive, conf=0.984, 0.0021s)
+  [ERR] 'Спасибо, теперь я наконец понимаю, куда уходя...' -> neutral (ожидали positive, conf=0.618, 0.0021s)
+  [OK ] 'Наконец-то накопил на отпуск благодаря совета...' -> positive (ожидали positive, conf=0.994, 0.0019s)
+  [ERR] 'Приложение постоянно вылетает, когда я пытаюс...' -> neutral (ожидали negative, conf=0.618, 0.0011s)
+  [OK ] 'Ужасно неудобный интерфейс, ничего не могу на...' -> negative (ожидали negative, conf=0.912, 0.001s)
+  [OK ] 'Мои расходы выросли в два раза, и я не понима...' -> negative (ожидали negative, conf=0.88, 0.0013s)
+  [OK ] 'Слишком много уведомлений, задолбали каждый д...' -> negative (ожидали negative, conf=0.675, 0.0012s)
+  [OK ] 'Функция категорий работает, но не всегда точн...' -> neutral (ожидали neutral, conf=0.792, 0.0011s)
+  [OK ] 'Добавил новый источник дохода в настройках....' -> neutral (ожидали neutral, conf=0.907, 0.0011s)
+  [OK ] 'Не пользовался приложением неделю, хочу посмо...' -> neutral (ожидали neutral, conf=0.942, 0.001s)
+  [OK ] 'Обновил данные о зарплате в профиле....' -> neutral (ожидали neutral, conf=0.885, 0.001s)
+  Accuracy: 83.3%, среднее время: 0.0014с
+    ожидали / предсказали     positive  negative   neutral
+    positive                         3         0         1
+    negative                         0         3         1
+    neutral                          0         0         4
+
+
+=== ИТОГО ===
+seara/rubert-base-cased-russian-sentiment          params=177.9M  accuracy=66.7%  время=0.0128с  по классам={'positive': 75.0, 'negative': 25.0, 'neutral': 100.0}
+cointegrated/rubert-tiny-sentiment-balanced        params=11.8M  accuracy=75.0%  время=0.0017с  по классам={'positive': 75.0, 'negative': 100.0, 'neutral': 50.0}
+mxlcw/rubert-tiny2-russian-financial-sentiment     params=29.2M  accuracy=83.3%  время=0.0014с  по классам={'positive': 75.0, 'negative': 75.0, 'neutral': 100.0}

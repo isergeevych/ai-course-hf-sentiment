@@ -1,0 +1,96 @@
+Найдено 25 кандидатов (pipeline_tag=text-classification, язык=ru):
+
+- blanchefort/rubert-base-cased-sentiment-rusentiment
+    license: НЕ УКАЗАНА
+    downloads: 199929, likes: 15
+    tags: transformers, pytorch, tf, jax, safetensors, bert, text-classification, sentiment, ru, dataset:RuSentiment, endpoints_co
+    Model Card: https://huggingface.co/blanchefort/rubert-base-cased-sentiment-rusentiment
+
+- tabularisai/multilingual-sentiment-analysis
+    license: cc-by-nc-4.0
+    downloads: 162772, likes: 398
+    tags: transformers, safetensors, distilbert, text-classification, sentiment-analysis, sentiment, synthetic data, multi-class, 
+    Model Card: https://huggingface.co/tabularisai/multilingual-sentiment-analysis
+
+- blanchefort/rubert-base-cased-sentiment
+    license: НЕ УКАЗАНА
+    downloads: 113099, likes: 22
+    tags: transformers, pytorch, tf, jax, safetensors, bert, text-classification, sentiment, ru, endpoints_compatible, region:us, 
+    Model Card: https://huggingface.co/blanchefort/rubert-base-cased-sentiment
+
+- seara/rubert-base-cased-russian-sentiment
+    license: mit
+    downloads: 88165, likes: 12
+    tags: transformers, pytorch, tf, jax, safetensors, bert, text-classification, sentiment-analysis, multi-class-classification, 
+    Model Card: https://huggingface.co/seara/rubert-base-cased-russian-sentiment
+
+- cointegrated/rubert-tiny-sentiment-balanced
+    license: НЕ УКАЗАНА
+    downloads: 50728, likes: 18
+    tags: transformers, pytorch, safetensors, bert, text-classification, russian, classification, sentiment, multiclass, ru, text-
+    Model Card: https://huggingface.co/cointegrated/rubert-tiny-sentiment-balanced
+
+- seara/rubert-tiny2-russian-sentiment
+    license: mit
+    downloads: 17231, likes: 35
+    tags: transformers, pytorch, tf, jax, safetensors, bert, text-classification, sentiment-analysis, multi-class-classification, 
+    Model Card: https://huggingface.co/seara/rubert-tiny2-russian-sentiment
+
+- r1char9/rubert-base-cased-russian-sentiment
+    license: mit
+    downloads: 10349, likes: 13
+    tags: transformers, pytorch, bert, text-classification, sentiment-analysis, multi-class-classification, sentiment analysis, ru
+    Model Card: https://huggingface.co/r1char9/rubert-base-cased-russian-sentiment
+
+- seara/rubert-base-cased-russian-emotion-detection-ru-go-emotions
+    license: mit
+    downloads: 8669, likes: 4
+    tags: transformers, pytorch, tf, jax, safetensors, bert, text-classification, sentiment-analysis, multi-label-classification, 
+    Model Card: https://huggingface.co/seara/rubert-base-cased-russian-emotion-detection-ru-go-emotions
+
+- cointegrated/rubert-tiny2-cedr-emotion-detection
+    license: НЕ УКАЗАНА
+    downloads: 7022, likes: 40
+    tags: transformers, pytorch, safetensors, bert, text-classification, russian, classification, sentiment, emotion-classificatio
+    Model Card: https://huggingface.co/cointegrated/rubert-tiny2-cedr-emotion-detection
+
+- fyaronskiy/ruRoberta-large-ru-go-emotions
+    license: mit
+    downloads: 5130, likes: 5
+    tags: transformers, onnx, safetensors, roberta, text-classification, Text Classification, emotion-classification, emotion-reco
+    Model Card: https://huggingface.co/fyaronskiy/ruRoberta-large-ru-go-emotions
+
+- mxlcw/rubert-tiny2-russian-financial-sentiment
+    license: mit
+    downloads: 4602, likes: 6
+    tags: transformers, safetensors, bert, text-classification, sentiment-analysis, multi-class-classification, financial, telegra
+    Model Card: https://huggingface.co/mxlcw/rubert-tiny2-russian-financial-sentiment
+
+- tabularisai/multilingual-emotion-classification
+    license: cc-by-nc-4.0
+    downloads: 2305, likes: 27
+    tags: transformers, safetensors, xlm-roberta, text-classification, emotion-classification, emotion, multi-label-classification
+    Model Card: https://huggingface.co/tabularisai/multilingual-emotion-classification
+
+- MonoHime/rubert-base-cased-sentiment-new
+    license: НЕ УКАЗАНА
+    downloads: 2240, likes: 21
+    tags: transformers, pytorch, safetensors, bert, text-classification, sentiment, ru, dataset:Tatyana/ru_sentiment_dataset, arxi
+    Model Card: https://huggingface.co/MonoHime/rubert-base-cased-sentiment-new
+
+- clapAI/modernBERT-base-multilingual-sentiment
+    license: apache-2.0
+    downloads: 1327, likes: 36
+    tags: transformers, tensorboard, safetensors, modernbert, text-classification, sentiment, multilingual, sentiment-analysis, pr
+    Model Card: https://huggingface.co/clapAI/modernBERT-base-multilingual-sentiment
+
+- seara/rubert-tiny2-russian-emotion-detection-cedr
+    license: mit
+    downloads: 1092, likes: 1
+    tags: transformers, pytorch, tf, jax, safetensors, bert, text-classification, sentiment-analysis, multi-label-classification, 
+    Model Card: https://huggingface.co/seara/rubert-tiny2-russian-emotion-detection-cedr
+
+- agentlans/multilingual-e5-small-aligned-sentiment
+    license: mit
+    downloads: 832, likes: 11
+    tags: safetensors, bert,

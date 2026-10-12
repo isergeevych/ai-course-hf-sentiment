@@ -1,0 +1,54 @@
+{
+  "google/gemma-4-31b-it": {
+    "accuracy_pct": 91.7,
+    "avg_inference_sec": 0.6662,
+    "per_class_accuracy_pct": {
+      "positive": 100.0,
+      "negative": 100.0,
+      "neutral": 75.0
+    },
+    "confusion": {
+      "positive": {
+        "positive": 4,
+        "negative": 0,
+        "neutral": 0
+      },
+      "negative": {
+        "positive": 0,
+        "negative": 4,
+        "neutral": 0
+      },
+      "neutral": {
+        "positive": 0,
+        "negative": 1,
+        "neutral": 3
+      }
+    }
+  },
+  "deepseek/deepseek-chat": {
+    "accuracy_pct": 91.7,
+    "avg_inference_sec": 0.883,
+    "per_class_accuracy_pct": {
+      "positive": 75.0,
+      "negative": 100.0,
+      "neutral": 100.0
+    },
+    "confusion": {
+      "positive": {
+        "positive": 3,
+        "negative": 1,
+        "neutral": 0
+      },
+      "negative": {
+        "positive": 0,
+        "negative": 4,
+        "neutral": 0
+      },
+      "neutral": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 4
+      }
+    }
+  }
+}

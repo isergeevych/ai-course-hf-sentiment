@@ -1,0 +1,174 @@
+{
+  "google/gemma-4-31b-it": [
+    {
+      "text": "Это лучшее приложение для учёта финансов, которым я пользовался!",
+      "expected": "positive",
+      "predicted": "positive",
+      "correct": true,
+      "time_sec": 0.646
+    },
+    {
+      "text": "Отличная функция прогноза, реально помогает планировать бюджет.",
+      "expected": "positive",
+      "predicted": "positive",
+      "correct": true,
+      "time_sec": 0.498
+    },
+    {
+      "text": "Спасибо, теперь я наконец понимаю, куда уходят мои деньги.",
+      "expected": "positive",
+      "predicted": "positive",
+      "correct": true,
+      "time_sec": 0.732
+    },
+    {
+      "text": "Наконец-то накопил на отпуск благодаря советам бота, это круто!",
+      "expected": "positive",
+      "predicted": "positive",
+      "correct": true,
+      "time_sec": 0.686
+    },
+    {
+      "text": "Приложение постоянно вылетает, когда я пытаюсь добавить расход.",
+      "expected": "negative",
+      "predicted": "negative",
+      "correct": true,
+      "time_sec": 0.523
+    },
+    {
+      "text": "Ужасно неудобный интерфейс, ничего не могу найти.",
+      "expected": "negative",
+      "predicted": "negative",
+      "correct": true,
+      "time_sec": 0.732
+    },
+    {
+      "text": "Мои расходы выросли в два раза, и я не понимаю почему — это раздражает.",
+      "expected": "negative",
+      "predicted": "negative",
+      "correct": true,
+      "time_sec": 0.764
+    },
+    {
+      "text": "Слишком много уведомлений, задолбали каждый день напоминать про бюджет.",
+      "expected": "negative",
+      "predicted": "negative",
+      "correct": true,
+      "time_sec": 0.846
+    },
+    {
+      "text": "Функция категорий работает, но не всегда точно определяет тип траты.",
+      "expected": "neutral",
+      "predicted": "negative",
+      "correct": false,
+      "time_sec": 0.822
+    },
+    {
+      "text": "Добавил новый источник дохода в настройках.",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "correct": true,
+      "time_sec": 0.669
+    },
+    {
+      "text": "Не пользовался приложением неделю, хочу посмотреть отчёт за месяц.",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "correct": true,
+      "time_sec": 0.524
+    },
+    {
+      "text": "Обновил данные о зарплате в профиле.",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "correct": true,
+      "time_sec": 0.552
+    }
+  ],
+  "deepseek/deepseek-chat": [
+    {
+      "text": "Это лучшее приложение для учёта финансов, которым я пользовался!",
+      "expected": "positive",
+      "predicted": "positive",
+      "correct": true,
+      "time_sec": 0.7
+    },
+    {
+      "text": "Отличная функция прогноза, реально помогает планировать бюджет.",
+      "expected": "positive",
+      "predicted": "positive",
+      "correct": true,
+      "time_sec": 0.546
+    },
+    {
+      "text": "Спасибо, теперь я наконец понимаю, куда уходят мои деньги.",
+      "expected": "positive",
+      "predicted": "negative",
+      "correct": false,
+      "time_sec": 1.371
+    },
+    {
+      "text": "Наконец-то накопил на отпуск благодаря советам бота, это круто!",
+      "expected": "positive",
+      "predicted": "positive",
+      "correct": true,
+      "time_sec": 0.838
+    },
+    {
+      "text": "Приложение постоянно вылетает, когда я пытаюсь добавить расход.",
+      "expected": "negative",
+      "predicted": "negative",
+      "correct": true,
+      "time_sec": 0.783
+    },
+    {
+      "text": "Ужасно неудобный интерфейс, ничего не могу найти.",
+      "expected": "negative",
+      "predicted": "negative",
+      "correct": true,
+      "time_sec": 1.287
+    },
+    {
+      "text": "Мои расходы выросли в два раза, и я не понимаю почему — это раздражает.",
+      "expected": "negative",
+      "predicted": "negative",
+      "correct": true,
+      "time_sec": 0.694
+    },
+    {
+      "text": "Слишком много уведомлений, задолбали каждый день напоминать про бюджет.",
+      "expected": "negative",
+      "predicted": "negative",
+      "correct": true,
+      "time_sec": 0.464
+    },
+    {
+      "text": "Функция категорий работает, но не всегда точно определяет тип траты.",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "correct": true,
+      "time_sec": 0.628
+    },
+    {
+      "text": "Добавил новый источник дохода в настройках.",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "correct": true,
+      "time_sec": 1.194
+    },
+    {
+      "text": "Не пользовался приложением неделю, хочу посмотреть отчёт за месяц.",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "correct": true,
+      "time_sec": 1.008
+    },
+    {
+      "text": "Обновил данные о зарплате в профиле.",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "correct": true,
+      "time_sec": 1.083
+    }
+  ]
+}

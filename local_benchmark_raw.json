@@ -1,0 +1,332 @@
+{
+  "seara/rubert-base-cased-russian-sentiment": [
+    {
+      "text": "Это лучшее приложение для учёта финансов, которым я пользовался!",
+      "expected": "positive",
+      "predicted": "positive",
+      "raw_label": "positive",
+      "confidence": 0.911,
+      "correct": true,
+      "time_sec": 0.0137
+    },
+    {
+      "text": "Отличная функция прогноза, реально помогает планировать бюджет.",
+      "expected": "positive",
+      "predicted": "positive",
+      "raw_label": "positive",
+      "confidence": 0.985,
+      "correct": true,
+      "time_sec": 0.0119
+    },
+    {
+      "text": "Спасибо, теперь я наконец понимаю, куда уходят мои деньги.",
+      "expected": "positive",
+      "predicted": "negative",
+      "raw_label": "negative",
+      "confidence": 0.455,
+      "correct": false,
+      "time_sec": 0.012
+    },
+    {
+      "text": "Наконец-то накопил на отпуск благодаря советам бота, это круто!",
+      "expected": "positive",
+      "predicted": "positive",
+      "raw_label": "positive",
+      "confidence": 0.996,
+      "correct": true,
+      "time_sec": 0.0128
+    },
+    {
+      "text": "Приложение постоянно вылетает, когда я пытаюсь добавить расход.",
+      "expected": "negative",
+      "predicted": "neutral",
+      "raw_label": "neutral",
+      "confidence": 0.716,
+      "correct": false,
+      "time_sec": 0.0133
+    },
+    {
+      "text": "Ужасно неудобный интерфейс, ничего не могу найти.",
+      "expected": "negative",
+      "predicted": "negative",
+      "raw_label": "negative",
+      "confidence": 0.828,
+      "correct": true,
+      "time_sec": 0.0135
+    },
+    {
+      "text": "Мои расходы выросли в два раза, и я не понимаю почему — это раздражает.",
+      "expected": "negative",
+      "predicted": "neutral",
+      "raw_label": "neutral",
+      "confidence": 0.545,
+      "correct": false,
+      "time_sec": 0.0142
+    },
+    {
+      "text": "Слишком много уведомлений, задолбали каждый день напоминать про бюджет.",
+      "expected": "negative",
+      "predicted": "neutral",
+      "raw_label": "neutral",
+      "confidence": 0.611,
+      "correct": false,
+      "time_sec": 0.0133
+    },
+    {
+      "text": "Функция категорий работает, но не всегда точно определяет тип траты.",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw_label": "neutral",
+      "confidence": 0.938,
+      "correct": true,
+      "time_sec": 0.0134
+    },
+    {
+      "text": "Добавил новый источник дохода в настройках.",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw_label": "neutral",
+      "confidence": 0.822,
+      "correct": true,
+      "time_sec": 0.0127
+    },
+    {
+      "text": "Не пользовался приложением неделю, хочу посмотреть отчёт за месяц.",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw_label": "neutral",
+      "confidence": 0.833,
+      "correct": true,
+      "time_sec": 0.0123
+    },
+    {
+      "text": "Обновил данные о зарплате в профиле.",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw_label": "neutral",
+      "confidence": 0.97,
+      "correct": true,
+      "time_sec": 0.0103
+    }
+  ],
+  "cointegrated/rubert-tiny-sentiment-balanced": [
+    {
+      "text": "Это лучшее приложение для учёта финансов, которым я пользовался!",
+      "expected": "positive",
+      "predicted": "neutral",
+      "raw_label": "neutral",
+      "confidence": 0.837,
+      "correct": false,
+      "time_sec": 0.002
+    },
+    {
+      "text": "Отличная функция прогноза, реально помогает планировать бюджет.",
+      "expected": "positive",
+      "predicted": "positive",
+      "raw_label": "positive",
+      "confidence": 0.997,
+      "correct": true,
+      "time_sec": 0.0024
+    },
+    {
+      "text": "Спасибо, теперь я наконец понимаю, куда уходят мои деньги.",
+      "expected": "positive",
+      "predicted": "positive",
+      "raw_label": "positive",
+      "confidence": 0.543,
+      "correct": true,
+      "time_sec": 0.0015
+    },
+    {
+      "text": "Наконец-то накопил на отпуск благодаря советам бота, это круто!",
+      "expected": "positive",
+      "predicted": "positive",
+      "raw_label": "positive",
+      "confidence": 0.999,
+      "correct": true,
+      "time_sec": 0.0015
+    },
+    {
+      "text": "Приложение постоянно вылетает, когда я пытаюсь добавить расход.",
+      "expected": "negative",
+      "predicted": "negative",
+      "raw_label": "negative",
+      "confidence": 0.661,
+      "correct": true,
+      "time_sec": 0.0016
+    },
+    {
+      "text": "Ужасно неудобный интерфейс, ничего не могу найти.",
+      "expected": "negative",
+      "predicted": "negative",
+      "raw_label": "negative",
+      "confidence": 0.976,
+      "correct": true,
+      "time_sec": 0.0015
+    },
+    {
+      "text": "Мои расходы выросли в два раза, и я не понимаю почему — это раздражает.",
+      "expected": "negative",
+      "predicted": "negative",
+      "raw_label": "negative",
+      "confidence": 0.812,
+      "correct": true,
+      "time_sec": 0.0019
+    },
+    {
+      "text": "Слишком много уведомлений, задолбали каждый день напоминать про бюджет.",
+      "expected": "negative",
+      "predicted": "negative",
+      "raw_label": "negative",
+      "confidence": 0.92,
+      "correct": true,
+      "time_sec": 0.0015
+    },
+    {
+      "text": "Функция категорий работает, но не всегда точно определяет тип траты.",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw_label": "neutral",
+      "confidence": 0.69,
+      "correct": true,
+      "time_sec": 0.0014
+    },
+    {
+      "text": "Добавил новый источник дохода в настройках.",
+      "expected": "neutral",
+      "predicted": "positive",
+      "raw_label": "positive",
+      "confidence": 0.96,
+      "correct": false,
+      "time_sec": 0.0016
+    },
+    {
+      "text": "Не пользовался приложением неделю, хочу посмотреть отчёт за месяц.",
+      "expected": "neutral",
+      "predicted": "negative",
+      "raw_label": "negative",
+      "confidence": 0.531,
+      "correct": false,
+      "time_sec": 0.0016
+    },
+    {
+      "text": "Обновил данные о зарплате в профиле.",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw_label": "neutral",
+      "confidence": 0.828,
+      "correct": true,
+      "time_sec": 0.0013
+    }
+  ],
+  "mxlcw/rubert-tiny2-russian-financial-sentiment": [
+    {
+      "text": "Это лучшее приложение для учёта финансов, которым я пользовался!",
+      "expected": "positive",
+      "predicted": "positive",
+      "raw_label": "positive",
+      "confidence": 0.509,
+      "correct": true,
+      "time_sec": 0.0021
+    },
+    {
+      "text": "Отличная функция прогноза, реально помогает планировать бюджет.",
+      "expected": "positive",
+      "predicted": "positive",
+      "raw_label": "positive",
+      "confidence": 0.984,
+      "correct": true,
+      "time_sec": 0.0021
+    },
+    {
+      "text": "Спасибо, теперь я наконец понимаю, куда уходят мои деньги.",
+      "expected": "positive",
+      "predicted": "neutral",
+      "raw_label": "neutral",
+      "confidence": 0.618,
+      "correct": false,
+      "time_sec": 0.0021
+    },
+    {
+      "text": "Наконец-то накопил на отпуск благодаря советам бота, это круто!",
+      "expected": "positive",
+      "predicted": "positive",
+      "raw_label": "positive",
+      "confidence": 0.994,
+      "correct": true,
+      "time_sec": 0.0019
+    },
+    {
+      "text": "Приложение постоянно вылетает, когда я пытаюсь добавить расход.",
+      "expected": "negative",
+      "predicted": "neutral",
+      "raw_label": "neutral",
+      "confidence": 0.618,
+      "correct": false,
+      "time_sec": 0.0011
+    },
+    {
+      "text": "Ужасно неудобный интерфейс, ничего не могу найти.",
+      "expected": "negative",
+      "predicted": "negative",
+      "raw_label": "negative",
+      "confidence": 0.912,
+      "correct": true,
+      "time_sec": 0.001
+    },
+    {
+      "text": "Мои расходы выросли в два раза, и я не понимаю почему — это раздражает.",
+      "expected": "negative",
+      "predicted": "negative",
+      "raw_label": "negative",
+      "confidence": 0.88,
+      "correct": true,
+      "time_sec": 0.0013
+    },
+    {
+      "text": "Слишком много уведомлений, задолбали каждый день напоминать про бюджет.",
+      "expected": "negative",
+      "predicted": "negative",
+      "raw_label": "negative",
+      "confidence": 0.675,
+      "correct": true,
+      "time_sec": 0.0012
+    },
+    {
+      "text": "Функция категорий работает, но не всегда точно определяет тип траты.",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw_label": "neutral",
+      "confidence": 0.792,
+      "correct": true,
+      "time_sec": 0.0011
+    },
+    {
+      "text": "Добавил новый источник дохода в настройках.",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw_label": "neutral",
+      "confidence": 0.907,
+      "correct": true,
+      "time_sec": 0.0011
+    },
+    {
+      "text": "Не пользовался приложением неделю, хочу посмотреть отчёт за месяц.",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw_label": "neutral",
+      "confidence": 0.942,
+      "correct": true,
+      "time_sec": 0.001
+    },
+    {
+      "text": "Обновил данные о зарплате в профиле.",
+      "expected": "neutral",
+      "predicted": "neutral",
+      "raw_label": "neutral",
+      "confidence": 0.885,
+      "correct": true,
+      "time_sec": 0.001
+    }
+  ]
+}

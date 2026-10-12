@@ -1,0 +1,6 @@
+huggingface_hub>=0.24
+transformers>=4.40
+torch>=2.2
+gradio>=4.0
+openai>=1.0
+python-dotenv>=1.0
